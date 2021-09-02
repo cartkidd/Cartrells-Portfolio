@@ -21,6 +21,9 @@
       width: 100%;
       height:95vh;
       background-image: none;
+      display: flex;
+      flex: wrap;
+      justify-content: space-between;
 
   }
 
@@ -30,7 +33,7 @@
       align-items: center;
       height: 60px;
       background-color: red;
-      box-shadow: 2px 2px 12px rgba(0,0,,0.2);
+      box-shadow: 2px 2px 12px rgba(0,0,0.2);
       padding: 0px 5%;
   }
 
@@ -48,5 +51,25 @@
 
   .mypage{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      color:wheat
-  }
+      color:wheat;
+      font-size: 22px;
+    }
+
+   
+   
+
+   .picture{
+       height: 225px;
+       position: absolute;
+       left: 70%;
+    }
+
+    #myWork{
+        flex-wrap: wrap;
+    }
+       
+       
+
+   
+
+      
